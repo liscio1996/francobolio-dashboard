@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    background-color: #333333;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  /* Menu Icon */
+  .menu-icon {
+    display: block;
+    width: 50px; /* o la dimensione dell'icona */
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  /* Service Image */
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    max-width: 210px;
+    max-height: 280px;
+    margin-top: 50px;
+  }
+
+
+  .Francobolio {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: larger;
+    
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    width: 250px;
+    height: 80px;
+    background: #525252;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    max-width: 50px;
+    max-height: 50px;
+    display: block;
+    margin-right: 20px;
+  }
+  
+  .button-text {
+    display: block;
+  }
+  
+
+  @media (min-width: 768px) {
+    .menu-icon {
+      display: none;
+    }
+  
+    .sidebar {
+      display: block;
+      background-color: #FFC107;
+      /* qui mi dovete aiutare con javascript*/
+    }
+  }
+  
